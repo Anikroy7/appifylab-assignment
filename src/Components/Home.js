@@ -5,6 +5,9 @@ import googleAndApple from '../images/download.png'
 import YourStory from './YourStory';
 import CreatePost from './CreatePost';
 import PosterInfo from './PosterInfo';
+import PostDetails from './PostDetails';
+
+
 
 const Home = () => {
     return (
@@ -80,6 +83,8 @@ const Home = () => {
                 <YourStory></YourStory>
                 <CreatePost></CreatePost>
                 <PosterInfo></PosterInfo>
+
+
             </section>
 
             {/*---------------- Right Section -----------------*/}
