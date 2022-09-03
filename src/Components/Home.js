@@ -4,6 +4,7 @@ import { faSave, faUser, faUserGroup, faPager, faCalendar, faSearch } from '@for
 import googleAndApple from '../images/download.png'
 import YourStory from './YourStory';
 import CreatePost from './CreatePost';
+import PosterInfo from './PosterInfo';
 
 const Home = () => {
     return (
@@ -57,7 +58,7 @@ const Home = () => {
 
                 {/*-------------------------- Suggested people---------------------------- */}
 
-                <div className='bg-white relative p-3 px-5 mt-4 rounded-lg shadow-sm' >
+                <div className='bg-white relative p-3 sm:order-3 px-5 mt-4 rounded-lg shadow-sm' >
                     <h2 className='font-bold'>Suggested people</h2>
                     <div className='lg:flex items-center mt-3'>
                         <div class="avatar placeholder">
@@ -78,6 +79,7 @@ const Home = () => {
             <section className=' text-white m-2'>
                 <YourStory></YourStory>
                 <CreatePost></CreatePost>
+                <PosterInfo></PosterInfo>
             </section>
 
             {/*---------------- Right Section -----------------*/}
@@ -94,7 +96,10 @@ const Home = () => {
                                 <span>MX</span>
                             </div>
                         </div>
-                        <h2 className='font-bold lg:ml-2'>Sadek Hossain</h2>
+                        <h2 className='font-bold lg:ml-2'>
+                            <span>Sadia</span><br />
+                            <span>user</span>
+                        </h2>
                     </div>
                     <div className='mt-6'>
                         <button className='border border-slate-200 mr-5 sm:mb-4 btn-outline rounded-md px-5 p-2 font-bold'>Ignore</button>

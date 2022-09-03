@@ -26,7 +26,7 @@ const CreatePost = () => {
             </div>
 
             <div className='h-[16px] w-full bg-accent'></div>
-            <div className='bg-white text-black relative  shadow-sm flex items-center '>
+            <div className='bg-white text-black relative rounded-lg  shadow-sm flex items-center '>
                 <span className='font-semibold text-error ml-6'> Public Post</span>
                 <span className='font-semibold m-6'> Friend Post</span>
             </div>
