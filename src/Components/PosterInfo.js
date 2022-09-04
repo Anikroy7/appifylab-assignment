@@ -1,6 +1,7 @@
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
+import LikeShareComment from './LikeShareComment';
 import PostDetails from './PostDetails';
 
 
@@ -52,10 +53,18 @@ const PosterInfo = () => {
                             </li>
                         </ul>
                     </div>
+
+                    {/*------------ Post details section -----------------*/}
                     <PostDetails
                         key={pf.id}
                         id={pf.id}
                     ></PostDetails>
+
+                    {/*------------------- Like, comment, and share section ----------------*/}
+                    <LikeShareComment
+                        key={pf.id}
+                        id={pf.id}
+                    ></LikeShareComment>
                 </div>)
             }
         </section>

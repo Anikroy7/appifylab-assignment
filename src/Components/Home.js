@@ -6,6 +6,7 @@ import YourStory from './YourStory';
 import CreatePost from './CreatePost';
 import PosterInfo from './PosterInfo';
 import PostDetails from './PostDetails';
+import NoPostFound from './NoPostFound';
 
 
 
@@ -83,11 +84,16 @@ const Home = () => {
                 <YourStory></YourStory>
                 <CreatePost></CreatePost>
                 <PosterInfo></PosterInfo>
-
+                <NoPostFound></NoPostFound>
 
             </section>
 
+
+
+
             {/*---------------- Right Section -----------------*/}
+
+
 
             <section>
 
