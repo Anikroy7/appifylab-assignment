@@ -1,4 +1,4 @@
-import { faAdjust, faFaceSmile, faPhotoVideo, faSearch, faShopLock } from '@fortawesome/free-solid-svg-icons';
+import { faAdjust, faFaceSmile, faPhotoVideo, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import userLogo from '../images/user.png'

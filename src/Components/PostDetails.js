@@ -86,7 +86,7 @@ const PostDetails = ({ id }) => {
                         <img src={imgFour} alt="" />
                         <img className='relative' src={imgFive} alt="" />
                     </div>
-                    <div style={{ height: "110px", width: "157px", opacity: 0.5 }} className='bg-blue-100 flex justify-center items-center absolute right-[281px] top-[1275px]'>
+                    <div style={{ height: "110px", width: "157px", opacity: 0.5 }} className='bg-blue-100 flex justify-center items-center absolute right-[281px] lg:top-[2030px] sm:right-[28  0px] '>
                         <h2 className='font-bold text-xl text-blue-800'>+1</h2>
                     </div>
                 </section>
@@ -132,7 +132,7 @@ const PostDetails = ({ id }) => {
             {
                 id === 6 && <section>
 
-                    <img className='w-full h-80' src={imgEight} alt="" />
+                    <img className='w-full h-96' src={imgEight} alt="" />
                 </section>
             }
 
