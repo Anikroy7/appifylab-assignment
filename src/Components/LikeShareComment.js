@@ -2,15 +2,29 @@ import { faGift, faPaperclip, faPaperPlane, faSmile } from '@fortawesome/free-so
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import logo from '../images/user.png'
+import ReactionCount from './ReactionCount';
 import ReactionField from './ReactionField';
 const LikeShareComment = ({ id }) => {
     return (
         <section>
 
+
+
+            {/*------------ user Reaction count  --------------*/}
+
+            <ReactionCount
+                key={id}
+                id={id}
+            ></ReactionCount>
+
+
+            {/*------------- user reaction ------------------*/}
+
             <ReactionField
                 key={id}
                 id={id}
             ></ReactionField>
+
 
             {/*----------------------- For Comment -------------------------*/}
 
